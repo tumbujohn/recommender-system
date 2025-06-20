@@ -80,3 +80,10 @@ recommender-system/
 
 ## Summary
 This project is like building a smart friend who learns from everyone’s choices and helps you discover new favorites. By keeping everything organized and explained simply, you make sure your project is powerful, reliable, and easy to grow.
+
+## More concepts for my reference
+ The predicted rating (see notbook - the eda (exploratory data analysis notebook and the web_demo.py)) is an estimated score that the recommender system calculates for a movie that a user has not yet rated. It represents how much the system thinks the user would like that movie, based on collaborative filtering.
+
+For user-based collaborative filtering, the predicted rating is typically computed by looking at ratings given to the movie by users who are similar to the target user, and averaging (or weighting) those ratings by similarity.
+
+For item-based collaborative filtering, it is computed by looking at how the user rated similar movies, and averaging (or weighting) those ratings by item similarity.

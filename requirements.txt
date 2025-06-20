@@ -7,3 +7,4 @@ scipy
 scikit-surprise
 jupyter
 pytest
+streamlit
