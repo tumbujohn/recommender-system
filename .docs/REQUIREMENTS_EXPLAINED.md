@@ -31,6 +31,26 @@ This document explains each dependency in `requirements.txt`, its purpose, and w
 
 ---
 
+## Running the Streamlit Web Demo
+
+To launch the interactive web demo for the recommender system:
+
+1. Make sure all requirements are installed:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Start the Streamlit app from the project root:
+   ```bash
+   streamlit run web_demo.py
+   ```
+3. A browser window will open. Use the sidebar to switch between:
+   - **MovieLens Recommender Demo: User-Based CF** (main page)
+   - **MovieLens Recommender Demo: Item-Based CF** (in the sidebar under "pages/")
+
+You can select a user and see personalized recommendations using either collaborative filtering method.
+
+---
+
 ## Where to Find More Information
 - Official documentation for each package can be found on [PyPI](https://pypi.org/) or the respective project websites.
 - For installation, use: `pip install -r requirements.txt`
